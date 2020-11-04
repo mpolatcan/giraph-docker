@@ -1,7 +1,7 @@
 version: "3"
 services:
   master:
-    image: mpolatcan/giraph:1.2.0-hadoop-2.7.7-java8
+    image: mpolatcan/giraph:1.2.0-hadoop-2.8.5-java8
     container_name: master
     hostname: master
     environment:
@@ -18,7 +18,7 @@ services:
       - 8088:8088 # Resourcemanager UI Port
 
   slave:
-    image: mpolatcan/giraph:1.2.0-hadoop-2.7.7-java8
+    image: mpolatcan/giraph:1.2.0-hadoop-2.8.5-java8
     environment:
       HADOOP_DAEMONS: |
         datanode
