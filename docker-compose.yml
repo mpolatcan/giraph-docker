@@ -32,7 +32,3 @@ services:
       - 8042 # Nodemanager UI Port
     depends_on:
       - master
-
-#hdfs dfs -mkdir -p /user/hduser/input
-#hdfs dfs -copyFromLocal tiny_graph.txt /user/hduser/input
-#hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.7.jar wordcount /input /output
