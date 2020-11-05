@@ -93,7 +93,7 @@ giraph:
   vertexOutputFormatClass: "NULL"
   vertexResolverClass: "NULL"
   vertexValueClass: "NULL"
-  vertexValueCombinerClass: "NUL"
+  vertexValueCombinerClass: "NULL"
   vertexValueFactoryClass: "NULL"
   worker.observers: "NULL"
   workerContextClass: "NULL"
